@@ -1,0 +1,72 @@
+.hj, select {
+  margin-bottom: 16px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button
+{
+
+background: rgb(106, 55, 150);
+border-radius: 999px;
+box-shadow: rgb(138, 103, 168) 0 10px 20px -10px;
+box-sizing: border-box;
+color: #FFFFFF;
+cursor: pointer;
+font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+opacity: 1;
+outline: 0 solid transparent;
+padding: 8px 18px;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+width: fit-content;
+word-break: break-word;
+border: 0;
+margin:8px 0;
+}
+
+button:hover {
+  border: 2px solid  rgb(112, 75, 144);;
+transition: border 0.5s;
+}
+
+
+
+.a{
+   text-align: center;
+    height: 500px;
+    width: 300px;
+    margin-left: 550px;
+    margin-top: 70px;
+    padding: 30px;
+    background-image: linear-gradient(to bottom,rgba(193, 81, 174, 0.5), rgb(91, 195, 181));
+} 
+.op
+{
+  background-color: rgba(180, 166, 166, 0.5);
+  margin-top: 370px;
+  width: 450px;
+  padding-left: 100px;
+  margin-left: 250px;
+  transform: translate(-50%,-50%);
+} 
+
+
+.whole
+{
+background-image: url('https://img.freepik.com/premium-vector/abstract-luxury-silver-blue-polygonal-background_41814-415.jpg?size=626&ext=jpg&ga=GA1.1.2137972851.1701188252&semt=ais');  
+background-size: cover;
+background-position: center;
+overflow: hidden;
+padding-top: 18px;
+}
+
+.m
+{
+  color: white;
+}

@@ -1,0 +1,70 @@
+.nm {
+  margin: 0;
+  padding: 0;
+  background-image: url(''); /* Replace with the actual path to your background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.page-container {
+  display: flex;
+}
+
+.side-panel {
+  width: 50%;
+  overflow: hidden;
+}
+
+.side-panel-image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.content-container {
+  width: 50%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.sb {
+  height: 60px; /* Adjusted height for better proportion */
+  width: 150px; /* Adjusted width for better proportion */
+  border-radius: 10px;
+  background: linear-gradient(to right, rgb(0, 140, 255), rgb(0, 208, 255)); /* Gradient background */
+  color: white;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: background 0.3s ease; /* Smooth transition on hover */
+  font-size: 10PX;
+}
+
+.sb:hover {
+  background: linear-gradient(to left, rgb(0, 140, 255), rgb(0, 208, 255)); /* Darker gradient on hover */
+}
+
+.out {
+  text-align: center;
+  padding: 50px;
+  border: 1px solid black;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .page-container {
+      flex-direction: column;
+  }
+
+  .side-panel, .content-container {
+      width: 100%;
+  }
+}
